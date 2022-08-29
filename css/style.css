@@ -1,0 +1,43 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@400;500;600 & display=swap');
+@import url('pagina/cabecalho.css');
+@import url('pagina/sobre.css');
+@import url('pagina/projetos.css');
+@import url('pagina/talentos.css');
+@import url('pagina/vagas.css');
+@import url('pagina/depoimentos.css');
+@import url('pagina/rodape.css');
+
+:root {
+    --fundo: #FFFFFF;
+    --cor-secundaria: #8E2424;
+    --letra-botao: #ffffff;
+    --letra-logo: #3A404E;
+    --letra: #667085;
+    --cor-titulos: #101828;
+    --cor-fundo-letra: rgba(142, 36, 36, 0.05);
+    --cor-borda: rgba(234, 236, 240, 1);
+    --cor-depoimentos: rgba(195, 25, 25, 0.03);
+    --cor-rodape: #F9FAFB;
+    --cor-formulario: #D0D5DD;
+
+    --font: 'Inter', sans-serif;;
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--letra);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--font);
+}
+
+.meio {
+    padding: 1rem;
+}
+
+.rodape {
+    background-color: var(--cor-rodape);
+    padding: 2rem;
+    text-align: center;
+}

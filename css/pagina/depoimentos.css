@@ -1,0 +1,26 @@
+.depoimentos {
+    margin: 1rem;
+    background: var(--cor-depoimentos);
+    text-align: center;
+    padding: 2rem;
+}
+
+.depoimentos__subtitulo {
+    color: var(--cor-secundaria);
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: .5em;
+}
+
+/* Titulo feito com a classe talentos__titulo */
+
+.depoimentos__titulo--perfil {
+    color: var(--cor-titulos);
+    margin: .5rem;
+    font-weight: 500;
+}
+
+.depoimentos__texto {
+    font-size: 14px;
+}

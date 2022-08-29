@@ -1,0 +1,27 @@
+.talentos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.talentos__subtitulo {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-fundo-letra);
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: .5em;
+}
+
+.talentos__titulo {
+    color: var(--cor-titulos);
+    font-size: 36px;
+    font-weight: 600;
+    margin: 2rem;
+}
+
+.talentos__texto {
+    font-size: 20px;
+    margin: 0 0 3rem 0;
+}

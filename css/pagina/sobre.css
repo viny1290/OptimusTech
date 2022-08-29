@@ -1,0 +1,28 @@
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.sobre__subtitulo {
+    color: var(--cor-secundaria);
+    font-weight: 600;
+}
+
+.sobre__titulo {
+    color: var(--cor-titulos);
+    font-weight: 600;
+    font-size: 48px;
+    margin: 3rem;
+}
+
+.sobre__container {
+    width: 47rem;
+}
+
+.sobre__texto {
+    font-size: 20px;
+    text-align: center;
+}

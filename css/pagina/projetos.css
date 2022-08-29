@@ -1,0 +1,24 @@
+.projetos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.projetos__item {
+    margin: 1em;
+    width: 20em;
+}
+
+.projetos__subtitulo {
+    color: var(--cor-secundaria);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.projetos__titulo {
+    color: var(--cor-titulos);
+    font-weight: 500;
+    font-size: 18px;
+    margin: 1rem 0 .5em 0;
+}
